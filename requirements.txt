@@ -1,0 +1,19 @@
+# TorProxy — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Async HTTP (client + server) ──────────────────────────────────────────────
+aiohttp>=3.9.0
+aiohttp-socks>=0.8.0        # SOCKS5 proxy support for aiohttp client
+
+# ── SOCKS5 low-level (needed for raw CONNECT tunnelling) ──────────────────────
+python-socks[asyncio]>=2.4.0
+
+# ── Tor controller ────────────────────────────────────────────────────────────
+stem>=1.8.2                  # Python Tor controller library
+
+# ── Config ────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Testing (optional) ────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-asyncio>=0.23.0

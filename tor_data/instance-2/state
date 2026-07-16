@@ -1,0 +1,28 @@
+# Tor state file last generated on 2026-07-16 11:17:18 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+Dormant 0
+Guard in=default rsa_id=ECFDBCDFF24CD0A2D4CECE93CC51EB74A5A16BBD nickname=Vigilance sampled_on=2026-07-15T07:55:40 sampled_idx=0 sampled_by=0.4.9.11 listed=1 confirmed_on=2026-07-07T15:16:58 confirmed_idx=2 pb_circ_attempts=3.000000 pb_circ_successes=3.000000 pb_successful_circuits_closed=1.000000 pb_collapsed_circuits=2.000000
+Guard in=default rsa_id=10925BBC65575A86068C14B5C2AABF5F7EC63176 nickname=prsv sampled_on=2026-07-12T09:23:12 sampled_idx=1 sampled_by=0.4.9.11 listed=1 confirmed_on=2026-07-08T18:09:05 confirmed_idx=0 pb_circ_attempts=2.000000 pb_circ_successes=2.000000 pb_successful_circuits_closed=2.000000
+Guard in=default rsa_id=CB2CCE6ACF50EA5DB6C50B4C5B786329EB9F09A3 nickname=tylerthecreator sampled_on=2026-07-15T11:46:58 sampled_idx=2 sampled_by=0.4.9.11 listed=1 confirmed_on=2026-07-15T17:13:21 confirmed_idx=1 pb_circ_attempts=2.000000 pb_circ_successes=2.000000 pb_successful_circuits_closed=2.000000
+Guard in=default rsa_id=3CA9095C40ABFF503257F66C722F46789D8D87B2 nickname=RelayToTheWorld sampled_on=2026-07-13T17:25:24 sampled_idx=3 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=D3FB1BCFE2404BF6F396ADA059C29B3E6547D10C nickname=ididntedithecofnig sampled_on=2026-07-05T08:08:35 sampled_idx=4 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=5F3B05B9A5575E614337AFA84DF04F526CD14C1B nickname=PWKR sampled_on=2026-07-08T13:55:26 sampled_idx=5 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=260D44D461D1EE6AE3AB66A3E358FFA537594F52 nickname=prsv sampled_on=2026-07-15T18:33:22 sampled_idx=6 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=431550005EE52BA82CAB3A890E07E8E91AD5A1BF nickname=NTH49R1 sampled_on=2026-07-08T23:32:05 sampled_idx=7 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=37A5E87EBD0B99B09650B32C8F3E085CF83A6EA7 nickname=Unnamed sampled_on=2026-07-10T03:14:43 sampled_idx=8 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=4B18417DAE63640753FDF12FE2B683074C4351EB nickname=southparkmexican sampled_on=2026-07-08T06:22:13 sampled_idx=9 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=B7F773300A2B89087563A106C9A4E80A9ED285F2 nickname=UnshakledGibson sampled_on=2026-07-05T03:12:13 sampled_idx=10 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=8CF07CA20EDA229F81CAE7BCC37ED802E42D2C20 nickname=TORPauloRelayFR sampled_on=2026-07-07T16:12:10 sampled_idx=11 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=9EF27C978771601449F2E457F53CA17A55EF95D1 nickname=prsv sampled_on=2026-07-14T02:55:14 sampled_idx=12 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=2F32397F39D58E88B0863621FC58C6D7F59491B3 nickname=ghostemane sampled_on=2026-07-06T06:36:37 sampled_idx=13 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=27132CE932038B4F34F3BB50299C8D8805735512 nickname=catpain sampled_on=2026-07-16T08:11:15 sampled_idx=14 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=98B208DAA54057221D957396F530954545A2F4C1 nickname=finc sampled_on=2026-07-10T23:00:37 sampled_idx=15 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=FC0E2422AB8D18BB43A1566135D9EB8405401F86 nickname=bluefacebaby sampled_on=2026-07-06T08:25:02 sampled_idx=16 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=A97036264052B8187F9017E317C34EFDA74125EB nickname=NTH46R1 sampled_on=2026-07-13T17:40:36 sampled_idx=17 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=A25376822ED65406FA6A7024E353307ACC456DF5 nickname=lupe sampled_on=2026-07-14T06:54:25 sampled_idx=18 sampled_by=0.4.9.11 listed=1
+Guard in=default rsa_id=BE06284371FD903154A683D6C501FF1978C1FA1E nickname=percy sampled_on=2026-07-08T08:38:03 sampled_idx=19 sampled_by=0.4.9.11 listed=1
+LastWritten 2026-07-16 10:17:18
+MinutesSinceUserActivity 2
+TorVersion Tor 0.4.9.11 (git-f3d28b2e0978ca07)

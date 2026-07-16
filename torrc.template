@@ -1,0 +1,35 @@
+# torrc.template
+# ---------------
+# Template for per-Tor-instance torrc files.
+# Variables are substituted by TorController._build_torrc():
+#   $SOCKS_PORT       → SOCKS5 listening port
+#   $CONTROL_PORT     → Control port
+#   $DATA_DIR         → Per-instance data directory (absolute path)
+#   $HASHED_PASSWORD  → HashedControlPassword (from 'tor --hash-password')
+#   $LOG_LEVEL        → notice | info | debug
+
+SOCKSPort $SOCKS_PORT
+ControlPort $CONTROL_PORT
+DataDirectory $DATA_DIR
+HashedControlPassword $HASHED_PASSWORD
+Log $LOG_LEVEL stdout
+GeoIPFile $TOR_BIN_DIR/geoip
+GeoIPv6File $TOR_BIN_DIR/geoip6
+
+# ── Performance ───────────────────────────────────────────────────────────────
+# Reduce circuit build timeout for faster failover
+CircuitBuildTimeout 15
+LearnCircuitBuildTimeout 0
+
+# ── Safety / privacy ─────────────────────────────────────────────────────────
+StrictNodes 0
+ExitRelay 0
+ClientOnly 1
+
+# ── DNS through Tor ───────────────────────────────────────────────────────────
+DNSPort 0
+
+# ── Avoid entry/exit guard reuse ─────────────────────────────────────────────
+# Each instance picks independent guards (minimises correlation)
+UseEntryGuards 1
+NumEntryGuards 3
